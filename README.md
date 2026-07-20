@@ -12,17 +12,7 @@ Key findings:
 - LAT reduces targeted attack success by over 80% (CTHR@50) while maintaining clean recommendation accuracy.
 - LAT generalizes to LLM-assisted recommender architectures, where conventional embedding-space defenses may even amplify poisoning signals.
 
-## Repository Structure (TODO)
 
-```
-LAT/
-├── data/               # Dataset preprocessing (ML-1M, LastFM, Gowalla)
-├── models/             # Victim models: MLP, ConvNCF, NeuMF, RLMRec
-├── attacks/            # Poisoning attacks: RevAdv, DP, ENT, Random
-├── defenses/           # LAT and baselines: APR, VAT, RAWP, GraphRFI
-├── lvs/                # Layer-wise Vulnerability Score evaluation
-└── README.md
-```
 
 ## Requirements (TODO)
 
